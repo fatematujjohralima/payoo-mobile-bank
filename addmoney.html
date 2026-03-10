@@ -55,10 +55,44 @@
                 </div>
             </section>
 
+            <section>
+                <h2>Add Money</h2>
+
+                <div class="">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <!-- <label class="label font-medium text-black">Select A Bank</label> -->
+        <fieldset class="fieldset">
+  <legend class="fieldset-legend ">Select A Bank</legend>
+  <select class="select rounded-3xl bg-slate-200">
+    <option disabled selected>Select Bank</option>
+    <option value="Bkash">Bkash</option>
+    <option value="Nagad">Nagad</option>
+    <option value="DBBL">DBBL</option>
+  </select>
+ 
+</fieldset>
+        <fieldset class="fieldset">
+          <label class="label font-medium text-black">Bank Account Number</label>
+          <input type="number" class="input bg-slate-200 rounded-3xl" placeholder="Enter 11 digit account number" />
+          <label class="label font-medium text-black">Amount to Add</label>
+          <input type="number" class="input bg-slate-200 rounded-3xl" placeholder="Add Amount to withdraw" />
+          <label class="label font-medium text-black">Pin Number</label>
+          <input type="password" class="input rounded-3xl bg-slate-200 " placeholder="Enter 4 digit pin number" />
+          
+          <button class="btn border-none btn-neutral bg-blue-700 mt-4 rounded-3xl">Add Money</button>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+            </section>
+
         </header>
     </section>
     
 
-    <script src="/script/main.js"></script>
 </body>
 </html>
